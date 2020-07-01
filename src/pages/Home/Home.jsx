@@ -1,10 +1,11 @@
 import React from 'react';
-import Nav from '../../components/Nav/Nav';
+import ShowCase from '../../components/ShowCase/ShowCase';
+
 
 const Home = () => {
     return(
         <div>
-           <Nav />
+           <ShowCase />
         </div>
     )
 };
