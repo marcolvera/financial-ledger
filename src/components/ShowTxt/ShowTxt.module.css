@@ -1,0 +1,36 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* Center box since parent hieght is 100vh */
+    height: 100%;
+    padding: 0 4rem;
+}
+
+.h1 {
+    font-size: 55px;
+    font-weight: 200;
+}
+
+.p {
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px 0 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: seagreen;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+:hover.btn {
+    opacity: 0.9;
+    cursor: pointer;
+}
