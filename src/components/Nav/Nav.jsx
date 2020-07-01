@@ -5,7 +5,18 @@ import styles from './Nav.module.css';
 const Nav = () => {
     return(
         <div>
-            <h1>I am Nav</h1>
+            <div className={styles.nav}>
+                <div>
+                    <Link to='/'>Ledger</Link>
+                </div>
+                <div>
+                    <Link></Link>
+                    <Link></Link>
+                    <Link></Link>
+                    <Link></Link>
+                    <Link></Link>
+                </div>
+            </div>
         </div>
     )
 };
