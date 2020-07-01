@@ -7,14 +7,14 @@ const Nav = () => {
         <div>
             <div className={styles.nav}>
                 <div>
-                    <Link to='/'>Ledger</Link>
+                    <Link className={styles.logo} to='/'><span>Fin</span> Ledger</Link>
                 </div>
                 <div>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
+                    <Link className={styles.link}>Home</Link>
+                    <Link className={styles.link}>About</Link>
+                    <Link className={styles.link}>Cases</Link>
+                    <Link className={styles.link}>Blog</Link>
+                    <Link className={styles.link}>Contact</Link>
                 </div>
             </div>
         </div>
