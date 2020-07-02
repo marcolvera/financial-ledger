@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const ShowTxt = () => {
     return (
         <div className={styles.box}>
-            <h1 className={styles.h1}>The Sky Is The Limit</h1>
+            <h1 className={styles.h1}>DEFY THE LIMITS</h1>
             <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <Link className={styles.btn}>>Read More</Link>
+            <Link className={styles.btn}>>READ MORE</Link>
         </div>
     )
 }

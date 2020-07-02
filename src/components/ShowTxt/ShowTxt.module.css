@@ -13,7 +13,7 @@
 
 .h1 {
     font-size: 55px;
-    font-weight: 200;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .p {
@@ -24,10 +24,11 @@
 
 .btn {
     text-decoration: none;
-    background-color: seagreen;
+    background-color: rgb(231, 63, 40);
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
 }
 
 :hover.btn {
