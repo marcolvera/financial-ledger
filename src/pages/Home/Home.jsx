@@ -1,6 +1,7 @@
 import React from 'react';
 import ShowCase from '../../components/ShowCase/ShowCase';
 import Icons from '../../components/Icons/Icons';
+import Card from '../../components/Card/Card';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
            <ShowCase />
            <Icons />
+           <Card />
         </div>
     )
 };
