@@ -13,18 +13,19 @@
 
 .h1 {
     font-size: 55px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .p {
     font-size: 23px;
     max-width: 600px;
     margin: 20px 0 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
     text-decoration: none;
-    background-color: rgb(236	,86	,91);
+    background-color: seagreen;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;

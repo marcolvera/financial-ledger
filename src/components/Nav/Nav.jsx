@@ -7,13 +7,13 @@ const Nav = () => {
         <div>
             <div className={styles.nav}>
                 <div>
-                    <Link className={styles.logo} to='/'><span>E</span>GAMES</Link>
+                    <Link className={styles.logo} to='/'><span>Flex</span> Ledger</Link>
                 </div>
                 <div>
                     <Link className={styles.link}>HOME</Link>
                     <Link className={styles.link}>ABOUT</Link>
-                    <Link className={styles.link}>MEDIA</Link>
-                    <Link className={styles.link}>PLAYERS</Link>
+                    <Link className={styles.link}>CASES</Link>
+                    <Link className={styles.link}>BLOG</Link>
                     <Link className={styles.link}>CONTACT</Link>
                 </div>
             </div>

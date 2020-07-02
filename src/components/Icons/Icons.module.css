@@ -4,18 +4,28 @@
     align-content: center;
     text-align: center;
     padding: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
+    
 }
 
 .subBox {
     padding: 1.5rem;
+
 }
 
 .h3 {
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .p {
     font-family: 'Open Sans', sans-serif;
+    margin-top: 1rem;
+    
+}
+
+.img {
+    width: 6rem;
+    border-radius: 3rem;
 }
