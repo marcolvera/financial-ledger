@@ -11,7 +11,7 @@
 }
 
 span {
-    color:  seagreen;
+    color:  rgb(94, 203, 111);
 }
 
 .logo {
@@ -28,11 +28,9 @@ span {
     padding: 0 2rem;
     color: white;
     font-family: 'Open Sans', sans-serif;
-
-
 }
 
 :hover.link {
-    border-bottom:  seagreen 2px solid;
+    border-bottom:  rgb(94, 203, 111) 2px solid;
 }
 
