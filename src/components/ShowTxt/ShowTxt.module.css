@@ -25,11 +25,11 @@
 
 .btn {
     text-decoration: none;
-    background-color: seagreen;
+    background-color: rgb(61, 165, 76);
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif
 }
 
 :hover.btn {

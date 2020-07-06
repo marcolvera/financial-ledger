@@ -11,7 +11,7 @@
 }
 
 span {
-    color:  rgb(94, 203, 111);
+    color:  rgb(61, 165, 76);
 }
 
 .logo {
@@ -31,6 +31,6 @@ span {
 }
 
 :hover.link {
-    border-bottom:  rgb(94, 203, 111) 2px solid;
+    border-bottom:  rgb(61, 165, 76) 2px solid;
 }
 

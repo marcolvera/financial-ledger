@@ -28,7 +28,7 @@
 
 .column2 {
     height: 100%;
-    background-color: seagreen;
+    background-color: rgb(61, 165, 76);
     color: white;
     display: flex;
     flex-direction: column;
@@ -54,12 +54,12 @@
 
 .btn {
     text-decoration: none;
-    background-color: seagreen;
-    border: 2px solid white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: white 5px;
     color: white;
     padding: 10px 30px;     
-    border-radius: white 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :hover.btn {
