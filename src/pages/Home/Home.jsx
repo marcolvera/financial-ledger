@@ -12,6 +12,7 @@ const Home = () => {
            <Icons />
            <Card />
            <Cases />
+           <Card />
         </div>
     )
 };
