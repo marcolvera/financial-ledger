@@ -17,7 +17,7 @@ const Card = () => {
                     <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos perspiciatis 
                     ea ullam quidem officiis, assumenda sunt ducimus, laudantiume quaerat deserunt soluta placeat dolorum, quis mollitia 
                     voluptates maiores saepe possimus velit quibusdam. Delectus perspiciatis expedita aliquid.</p>
-                    <Link className={styles.btn}>>READ MORE</Link>
+                    <Link className={styles.btn}>READ MORE</Link>
                 </div>
             </div>
         </div>
