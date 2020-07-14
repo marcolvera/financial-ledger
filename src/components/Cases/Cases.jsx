@@ -25,7 +25,7 @@ const Cases = () => {
                 </div>
                 <div className={styles.column}>
                     <img className={styles.img} src="https://i.imgur.com/lUAa1CP.jpg" alt=""/>
-                    <img className={styles.img} src="https://i.imgur.com/P5YQZUC.jpg" alt=""/>
+                    <img className={styles.img} src="https://i.imgur.com/J6jHSjP.png" alt=""/>
                 </div>
             </div>
         </div>
