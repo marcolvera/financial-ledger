@@ -17,7 +17,7 @@ const Blog = () => {
             </div>
             <div className={styles.column}>
                 <div className={styles.column1}>
-                    <img className={styles.img} src="https://i.imgur.com/kBPSkoh.jpg" alt=""/>
+                    <img className={styles.img} src="https://i.imgur.com/MymeI1w.jpg" alt=""/>
                 </div>
             </div>
         </div>
