@@ -5,6 +5,7 @@ import Card from '../../components/Card/Card';
 import Cases from '../../components/Cases/Cases';
 import Blog from '../../components/Blog/Blog';
 import Team from '../../components/Team/Team';
+import Contact from '../../components/Contact/Contact';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
            <Cases />
            <Blog />
            <Team />
+           <Contact />
         </div>
     )
 };
