@@ -6,6 +6,7 @@ import Cases from '../../components/Cases/Cases';
 import Blog from '../../components/Blog/Blog';
 import Team from '../../components/Team/Team';
 import Contact from '../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
            <Blog />
            <Team />
            <Contact />
+           <Footer />
         </div>
     )
 };
