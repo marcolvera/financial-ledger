@@ -63,7 +63,7 @@ class Contact extends Component {
                             <textarea id="subject" name='subject' placeholder="Write something..."
                             value={this.state.subject}
                             onChange={e => this.setState({subject: e.target.value})}></textarea>
-                            <input className={styles.btn} type="submit" onClick={e => this.handleFormSubmit(e)} value="submit"/>
+                            <input className={styles.btn} type="submit" onClick={e => this.handleFormSubmit(e)} value="Send"/>
                             <div>
                                 {this.state.mailSent &&
                                 <div>Thank you for contacting us.</div>

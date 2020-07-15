@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     opacity: .8;
+    padding: 0 2rem;
 }
 
 span {
@@ -16,7 +17,6 @@ span {
 
 .logo {
     text-decoration: none;
-    padding-left: 2rem;
     color: white;
     font-size: 2rem;
     font-weight: 400;
@@ -25,12 +25,26 @@ span {
 
 .link {
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 1rem;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
 :hover.link {
     border-bottom:  rgb(61, 165, 76) 2px solid;
+}
+
+/* Mobile */
+@media(max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .link {
+        padding: 1rem .8rem;
+    }
 }
 

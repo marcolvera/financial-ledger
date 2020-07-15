@@ -65,3 +65,11 @@
 :hover.btn {
     opacity: .9;
 }
+
+/* Mobile */
+@media(max-width: 768px) {
+   .column {
+       flex: 100%;
+       max-width: 100%;
+   }
+}
