@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .subBox {
@@ -34,5 +34,17 @@
     width: 95%;
     height: 90;
     border-radius: 50%;
+}
+
+.top {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 1rem 0 .8rem 0;
+}
+
+.bot {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: 2rem;
 }
 

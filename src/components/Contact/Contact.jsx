@@ -39,7 +39,7 @@ class Contact extends Component {
             <div className={styles.row}>
                 <div className={styles.column}>
                     <div className={styles.column1}>
-                        <img className={styles.img} src="https://i.imgur.com/F3Hpfav.jpg" alt=""/>
+                        <img className={styles.img} src="https://i.imgur.com/D8ANy3w.jpg" alt=""/>
                     </div>
                 </div>
                 <div className={styles.column}>
@@ -63,7 +63,7 @@ class Contact extends Component {
                             <textarea id="subject" name='subject' placeholder="Write something..."
                             value={this.state.subject}
                             onChange={e => this.setState({subject: e.target.value})}></textarea>
-                            <input type="submit" onClick={e => this.handleFormSubmit(e)} value="submit"/>
+                            <input className={styles.btn} type="submit" onClick={e => this.handleFormSubmit(e)} value="submit"/>
                             <div>
                                 {this.state.mailSent &&
                                 <div>Thank you for contacting us.</div>
