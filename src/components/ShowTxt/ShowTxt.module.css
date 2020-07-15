@@ -36,3 +36,10 @@
     opacity: 0.9;
     cursor: pointer;
 }
+
+/* Mobile */
+@media(max-width: 768px) {
+    .h1 {
+        font-size: 45px;
+    }
+}
