@@ -1,13 +1,15 @@
 import React from 'react';
-import Nav from '../../components/Nav/Nav';
+import BlogCase from '../../components/BlogCase/BlogCase';
 import Post1 from '../../components/Post1/Post1';
+import Post2 from '../../components/Post2/Post2';
 
 
 const Blog = () => {
     return(
         <div>
-            <Nav />
+            <BlogCase />
             <Post1 />
+            <Post2 />
         </div>
     );
 }
