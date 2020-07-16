@@ -10,10 +10,10 @@ const Nav = () => {
                     <Link className={styles.logo} to='/'><span>Flex</span> Ledger</Link>
                 </div>
                 <div>
-                    <Link className={styles.link}>HOME</Link>
+                    <Link className={styles.link} to='/'>HOME</Link>
                     <Link className={styles.link}>ABOUT</Link>
                     <Link className={styles.link}>CASES</Link>
-                    <Link className={styles.link}>BLOG</Link>
+                    <Link className={styles.link} to='/blog'>BLOG</Link>
                     <Link className={styles.link}>CONTACT</Link>
                 </div>
             </div>
